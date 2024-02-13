@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE16557A2B7B957E007FC441 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1655792B7B957E007FC441 /* MainViewModel.swift */; };
+		CE16557C2B7BAC5A007FC441 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16557B2B7BAC5A007FC441 /* DetailsView.swift */; };
 		CE2CB4A72B7A4E090068C62A /* test_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CB4A62B7A4E090068C62A /* test_swiftuiApp.swift */; };
-		CE2CB4A92B7A4E090068C62A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CB4A82B7A4E090068C62A /* ContentView.swift */; };
+		CE2CB4A92B7A4E090068C62A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CB4A82B7A4E090068C62A /* MainView.swift */; };
 		CE2CB4AB2B7A4E0D0068C62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2CB4AA2B7A4E0D0068C62A /* Assets.xcassets */; };
 		CE2CB4AE2B7A4E0D0068C62A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2CB4AD2B7A4E0D0068C62A /* Preview Assets.xcassets */; };
 		CE2CB4B82B7A4E0E0068C62A /* test_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CB4B72B7A4E0E0068C62A /* test_swiftuiTests.swift */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1655792B7B957E007FC441 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CE16557B2B7BAC5A007FC441 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		CE2CB4A32B7A4E090068C62A /* test.swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2CB4A62B7A4E090068C62A /* test_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_swiftuiApp.swift; sourceTree = "<group>"; };
-		CE2CB4A82B7A4E090068C62A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE2CB4A82B7A4E090068C62A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CE2CB4AA2B7A4E0D0068C62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2CB4AD2B7A4E0D0068C62A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE2CB4B32B7A4E0E0068C62A /* test.swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.swiftuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +98,9 @@
 		CE2CB4A52B7A4E090068C62A /* test.swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				CE4940782B7BDC6000311221 /* MainViewUI */,
 				CE2CB4A62B7A4E090068C62A /* test_swiftuiApp.swift */,
-				CE2CB4A82B7A4E090068C62A /* ContentView.swift */,
+				CE16557B2B7BAC5A007FC441 /* DetailsView.swift */,
 				CE2CB4AA2B7A4E0D0068C62A /* Assets.xcassets */,
 				CE2CB4AC2B7A4E0D0068C62A /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				CE2CB4C32B7A4E0E0068C62A /* test_swiftuiUITestsLaunchTests.swift */,
 			);
 			path = test.swiftuiUITests;
+			sourceTree = "<group>";
+		};
+		CE4940782B7BDC6000311221 /* MainViewUI */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CB4A82B7A4E090068C62A /* MainView.swift */,
+				CE1655792B7B957E007FC441 /* MainViewModel.swift */,
+			);
+			path = MainViewUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2CB4A92B7A4E090068C62A /* ContentView.swift in Sources */,
+				CE2CB4A92B7A4E090068C62A /* MainView.swift in Sources */,
+				CE16557C2B7BAC5A007FC441 /* DetailsView.swift in Sources */,
 				CE2CB4A72B7A4E090068C62A /* test_swiftuiApp.swift in Sources */,
+				CE16557A2B7B957E007FC441 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,8 +2,6 @@
 //  test_swiftuiApp.swift
 //  test.swiftui
 //
-//  Created by User on 12.02.2024.
-//
 
 import SwiftUI
 
@@ -11,7 +9,8 @@ import SwiftUI
 struct test_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(viewModel: MainViewModel(isLocked: false))
         }
     }
 }
+
